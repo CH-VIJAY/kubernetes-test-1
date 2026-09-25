@@ -11,7 +11,7 @@ def is_prime(num):
                 return False
         return True
 
-#print(add_two_numbers(5, 10))
+print(add_two_numbers(5, 10))
 print(is_prime(11))
 prime_numbers = [num for num in range(1, 101) if is_prime(num)]
 print(prime_numbers)
