@@ -5,7 +5,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY prime-addnumbers.py .
+COPY multiple-functions.py .
 
 # Set the default command to run the script
-ENTRYPOINT ["python", "prime-addnumbers.py"]
+ENTRYPOINT ["python", "multiple-functions.py"]
